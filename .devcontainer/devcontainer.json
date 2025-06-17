@@ -1,0 +1,10 @@
+{
+    "name": "MADR MCP Server",
+    "context": "..",
+    "dockerFile": "../Dockerfile",
+    "forwardPorts": [5000],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["ms-python.python"]
+}

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "madr-mcp-server"
+version = "0.1.0"
+description = "MADR Document processing server"
+requires-python = ">=3.11"
+authors = [{name = "", email = ""}]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[project.dependencies]
+Flask = "^2.3.2"
